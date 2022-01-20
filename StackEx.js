@@ -20,7 +20,7 @@ class Stack{
     getMin(){
         let ans=this.stack[0];
         for(let i=1;i<=this.index;i++){
-            Math.min(this.stack[i],ans);
+           ans= Math.min(this.stack[i],ans);
         }return ans;
     }
 }
